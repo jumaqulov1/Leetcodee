@@ -12,12 +12,10 @@ function createCounter(init = 5) {
             count++;
             return count;
         },
-
         decrement() {
             count--;
             return count;
         },
-
         reset() {
             count = init;
             return count;
@@ -29,11 +27,9 @@ function createCounter(init = 5) {
 
 var map = function (arr, fn) {
     let result = [];
-
     for (let i = 0; i < arr.length; i++) {
         result[i] = fn(arr[i], i);
     }
-
     return result;
 };
 
@@ -41,7 +37,6 @@ var map = function (arr, fn) {
 
 var filter = function (arr, fn) {
     let result = [];
-
     for (let i = 0; i < arr.length; i++) {
         if (Boolean(fn(arr[i], i))) {
             result.push(arr[i]);
