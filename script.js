@@ -3,13 +3,10 @@
 let a = 'Hello World'
 console.log(a);
 
-
-
-// 1-exam
+// 2-exam
 
 function createCounter(init = 5) {
     let count = init;
-
     return {
         increment() {
             count++;
@@ -28,8 +25,7 @@ function createCounter(init = 5) {
     };
 }
 
-
-//   2-exam
+//   3-exam
 
 var map = function (arr, fn) {
     let result = [];
@@ -41,9 +37,7 @@ var map = function (arr, fn) {
     return result;
 };
 
-
-
-// 3-exam 
+// 4-exam 
 
 var filter = function (arr, fn) {
     let result = [];
